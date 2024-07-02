@@ -1,0 +1,52 @@
+div{
+    background-color:gray;
+    height:50px;
+}
+
+.Problem_A , .Problem_B , .Problem_C , .Problem_D {
+    display:flex;
+    justify-content:space-around;
+    background-color:aqua;
+}
+
+.Problem_A{
+    padding:10px;
+    gap:10px;
+}
+
+.Problem_B{
+    padding:15px;
+    gap:15px;
+}
+
+.Problem_C{
+    padding: 12px;
+    gap: 12px;
+}
+
+.Problem_D{
+    flex-wrap: wrap;
+    padding:12px;
+}
+
+.Problem_A div , .Problem_B div , .A{
+    width:50%;}
+
+.B{
+    width:25%;}
+
+
+.A , .B , .Problem_D div{
+    border: solid black 2px;
+}
+
+.Problem_D div{
+    width:24%;
+    box-sizing: border-box;
+    
+}
+
+#ebox{
+    width: 100%;
+    margin-top: 12px;
+}
